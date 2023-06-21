@@ -1,0 +1,135 @@
+:root {
+    --text: 1.1rem;
+    --text-bold: 1.5rem;
+    --color: rgb(112, 15, 15);
+}
+* {
+    font-size: var(--text);
+    color: var(--color);
+}
+
+.custom {
+    width: 20%;
+    height: 70vh;
+    margin: 10px;
+}
+.custom2 {
+    width: 50%;
+    height: 70vh;
+    margin: 10px;
+}
+
+.container {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 88%;
+
+    background-color: #fff;
+    width: 90%;
+    margin: 10px 5%;
+    padding: 20px 10px;
+    border-radius: 20px;
+}
+.menu {
+    border-right: 1px dotted grey;
+    padding-right: 10px;
+}
+.menuTitle{
+    border-bottom: 2px solid var(--color);
+}
+
+/* image */
+.imageSection img {
+    width: 230px;
+    height: 150px;
+    margin-top: 1rem;
+}
+
+/* icons section  */
+.icons {
+    max-width: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 20px 30px;
+}
+.icons box-icon {
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+.icons box-icon:hover {
+    cursor: pointer;
+}
+
+/* form section  */
+.forms {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.2rem;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    padding: 0.5rem;
+    font-size: var(--text);
+    color: var(--color);
+    background-color: lightcoral;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+input[type="text"]:focus,
+input[type="text"]:active,
+select {
+    outline: none;
+    border: none;
+}
+input::placeholder {
+    color: var(--color);
+    font-size: var(--text);
+}
+
+.customButton {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+    width: 150px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 300;
+    color: azure;
+    background-color: orange;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    border-radius: 20px;
+
+    position: relative;
+    bottom: 0;
+    right: 0;
+}
+.btnContent {
+    display: flex;
+    align-items: center;
+}
+
+.btnIcon {
+    margin-left: 6px; /* Add desired spacing between text and icon */
+}
+
+.forms .btnHolder {
+    justify-content: flex-end;
+    display: flex;
+    margin-top: 8rem;
+}

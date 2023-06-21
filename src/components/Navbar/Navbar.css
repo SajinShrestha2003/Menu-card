@@ -1,0 +1,25 @@
+.navbar {
+    font-size: 1.5rem;
+}
+
+.listItems {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.listItems li{
+    margin: 4px;
+    display: flex;
+    list-style-type: none;
+}
+
+.listItems li a {
+    text-decoration: none;
+    color: rgb(112, 15, 15);
+    margin: 4px;
+}
+
+.listItems li a:active{
+    background-color: #fff;
+}
