@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar/Navbar";
-import UserInput from "./components/UserInput/UserInput";
+import UserInput from "./components/AddFood/AddFood";
 import "./App.css";
 
 function App() {
