@@ -3,13 +3,13 @@ import Icons from "./Icons";
 
 const Menu = ({ title }) => {
     const listItems = [
-        { name: "Item 1", icon: "baguette", color: "red" },
-        { name: "Item 2", icon: "baguette", color: "red" },
-        { name: "Item 3", icon: "baguette", color: "red" },
-        { name: "Item 4", icon: "baguette", color: "red" },
-        { name: "Item 5", icon: "baguette", color: "red" },
-        { name: "Item 6", icon: "baguette", color: "red" },
-        { name: "Item 7", icon: "baguette", color: "red" },
+        { name: "Item 1", icon: "cookie", color: "red" },
+        { name: "Item 2", icon: "cookie", color: "red" },
+        { name: "Item 3", icon: "cookie", color: "red" },
+        { name: "Item 4", icon: "cookie", color: "red" },
+        { name: "Item 5", icon: "cookie", color: "red" },
+        { name: "Item 6", icon: "cookie", color: "red" },
+        { name: "Item 7", icon: "cookie", color: "red" },
     ];
 
     return (
