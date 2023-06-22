@@ -12,33 +12,33 @@ export default function Navbar() {
             <nav className="navbar">
                 <ul className="listItems">
                     <li className={`${isActive === 1 ? "activeTab" : ""}`}>
-                        <box-icon color="rgb(112, 15, 15)" size="2rem" name="plus"></box-icon>
                         <Link to="/" onClick={() => handleActive(1)}>
-                            Add food
+                            <box-icon color="rgb(112, 15, 15)" size="2rem" name="plus"></box-icon>
+                            <span>Add Food</span>
                         </Link>
                     </li>
                     <li className={`${isActive === 2 ? "activeTab" : ""}`}>
-                        <box-icon color="rgb(112, 15, 15)" size="2rem" type="solid" name="cart-alt"></box-icon>
                         <Link to="/Order" onClick={() => handleActive(2)}>
-                            Order
+                            <box-icon color="rgb(112, 15, 15)" size="2rem" type="solid" name="cart-alt"></box-icon>
+                            <span>Order</span>
                         </Link>
                     </li>
                     <li className={`${isActive === 3 ? "activeTab" : ""}`}>
-                        <box-icon color="rgb(112, 15, 15)" size="2rem" name="cog" type="solid"></box-icon>
                         <Link to="/Setup" onClick={() => handleActive(3)}>
-                            Setup
+                            <box-icon color="rgb(112, 15, 15)" size="2rem" name="cog" type="solid"></box-icon>
+                            <span>Setup</span>
                         </Link>
                     </li>
                     <li className={`${isActive === 4 ? "activeTab" : ""}`}>
-                        <box-icon color="rgb(112, 15, 15)" size="2rem" name="info-square"></box-icon>
                         <Link to="/Services" onClick={() => handleActive(4)}>
-                            Services
+                            <box-icon color="rgb(112, 15, 15)" size="2rem" name="info-square"></box-icon>
+                            <span>Services</span>
                         </Link>
                     </li>
                 </ul>
             </nav>
 
-            <Outlet/>
+            <Outlet />
         </>
     );
 }

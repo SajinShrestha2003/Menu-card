@@ -31,15 +31,15 @@ export default function Form() {
                         Description:
                         <input type="text" maxLength="36" placeholder="Less than 36 letters..." />
                     </label>
+                    <div className="btnHolder">
+                        <Button className="customButton" onClick={onClick}>
+                            Click me
+                            <span className="btnIcon">
+                                <box-icon color="white" size="2rem" name="plus"></box-icon>
+                            </span>
+                        </Button>
+                    </div>
                 </form>
-                <div className="btnHolder">
-                    <Button className="customButton" onClick={onClick}>
-                        Click me
-                        <span className="btnIcon">
-                            <box-icon color="white" size="2rem" name="plus"></box-icon>
-                        </span>
-                    </Button>
-                </div>
             </div>
         </>
     );

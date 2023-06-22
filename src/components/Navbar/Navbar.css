@@ -15,11 +15,16 @@
 }
 
 .listItems li a {
+    display: flex;
+    text-align: center;
+    justify-content: center;
     text-decoration: none;
     color: rgb(112, 15, 15);
     padding: 4px;
 }
-
+.listItems li a span{
+    margin-top: 6px;
+}
 .listItems li a:active{
     background-color: #fff;
 }
