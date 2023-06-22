@@ -147,6 +147,9 @@ input::placeholder {
     text-transform: capitalize;
     border-radius: 20px;
 }
+.customButton:hover{
+    background-color: rgb(255, 193, 79);
+}
 
 .btnContent {
     display: flex;
