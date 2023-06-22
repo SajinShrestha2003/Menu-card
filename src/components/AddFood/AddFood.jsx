@@ -7,7 +7,11 @@ export default function AddFood() {
     return (
         <div className="container">
             <Menu title="Food Menu" />
-            <Image />
+            <Image
+                title="Create Food Menu"
+                url="http://pluspng.com/img-png/png-menu-restaurant-formatted-menus-for-restaurants-1386.png"
+                alt="no image found"
+            />
             <Form />
         </div>
     );
